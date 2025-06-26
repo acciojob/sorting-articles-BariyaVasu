@@ -1,10 +1,4 @@
- * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
+ body {
       font-family: sans-serif;
       background: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
       background-size: cover;
@@ -23,17 +17,17 @@
       margin-bottom: 20px;
     }
 
-    ul#band {
+    ul#bands {
       list-style-type: square;
       padding-left: 20px;
     }
 
-    ul#band li {
+    ul#bands li {
       padding: 12px 0;
       border-bottom: 1px solid #eee;
       font-size: 18px;
     }
 
-    ul#band li:last-child {
+    ul#bands li:last-child {
       border-bottom: none;
     }
